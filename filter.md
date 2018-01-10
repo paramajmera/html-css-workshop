@@ -1,21 +1,17 @@
 
 # Filtering
 
-If you want to apply a style to `<strong>` tags, but only those that appear within a paragraph, you would use this syntax:
+CSS has an automatic filtering function where the most specific rule in CSS always takes precedence. 
+
+So if your stylesheet contained the following rule sets, then the text of your paragraph would be green, but where the strong tag is found in the paragrach, the text would be red. This would occur regardless of the order these rule sets appear in the stylesheet.
 
 ```
-p strong {
-	color: red;
-	font-weight: bold;
-}
-```
-
-The most specific rule in CSS always takes precedence. So if you also had this rule set:
-
-```
-string {
+p {
 	color: green;
 }
 ```
-
-Then text inside a `<strong>` element would appear red inside paragraph tags and green everywhere else.
+```
+p strong {
+	color: red;
+}
+```
