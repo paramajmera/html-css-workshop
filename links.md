@@ -24,7 +24,7 @@ Which appears as:
 
 Links defined like this are called "abolute" links, since they describe the whole url. Links that describe the URL in relation to the page you're on, like the About example above, are called "relative" links. Use relative links when referring to pages on your own site so that your site won't break when it's moved.
 
-```
+`
 
 h1 {
 	color: orange;
@@ -62,4 +62,4 @@ p {
 	background-color: grey
 }
 
-```
+`
