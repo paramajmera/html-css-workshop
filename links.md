@@ -26,6 +26,8 @@ Links defined like this are called "abolute" links, since they describe the whol
 
 
 
+
+
 ```h1 {
 	color: orange;
 	font-style: italic;
@@ -60,4 +62,5 @@ p {
 
 .background {
 	background-color: grey
-}```
+}
+```
